@@ -2,6 +2,10 @@
 	margin: 0;
 	padding: 0;
 }
+body{
+    background-color: rgb(51, 43, 43);
+    color: white;
+}
 
 a {
 color: white;
@@ -32,11 +36,28 @@ a:hover{
 	list-style: none;
 	padding: 5px
 }
+.privacy{
+    padding: 5px;
+    font-size: 12px;
+    position: absolute;
+    bottom: 12px;
+
+}
 .navbar{
     position: fixed;
     top: 0;
-    width: 1240px;
+    right: 0;
+    left: 200px;
     z-index: 999;
+    background-color: (44, 35, 35)!important
+}
+.dropdown-menu {
+    background-color: rgb(44, 35, 35)!important;
+    
+
+}
+.dropdown-item{
+    color: white;
 }
 .wrapper .main-content{
 	
@@ -46,11 +67,12 @@ a:hover{
 }
 
 .arrow{
-    color: white !important;
+   color: white !important;
    background-color: black;
    border-color: black;
    border-radius: 50%;
    padding: 3px;
+
 }
 .btn{
     background-color: black;
@@ -61,9 +83,11 @@ a:hover{
 }
 .btn:hover{
     background-color: black;
-    border-color: black;
+    
+    border-radius: 50px;
     color: white;
 }
+
 .top-container{
     margin-top: 100px;
 }
@@ -72,6 +96,7 @@ a:hover{
     padding-right: 15px;
     padding-top: 15px;
 }
+
 
 .card-horizontal{
     display: flex;
@@ -85,4 +110,7 @@ a:hover{
 p{
    margin-top: 18px;
 
+}
+.podocasts{
+    margin-top: 0px;
 }
