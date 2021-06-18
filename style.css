@@ -11,14 +11,13 @@ a {
 color: white;
 text-decoration: none;
 }
+
 a:hover{
     color: white;
     text-decoration: none;
-    background-color: rgb(75, 72, 64);
-    border-radius: 2px;
+    
     
     }
-	
 .wrapper .sidenav{
 	position: fixed;
 	left: 0;
@@ -113,4 +112,8 @@ p{
 }
 .podocasts{
     margin-top: 0px;
+}
+
+footer{
+    background-color: crimson;
 }
